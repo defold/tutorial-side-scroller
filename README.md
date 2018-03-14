@@ -6,7 +6,7 @@ Welcome to the side scroller Defold tutorial. The game you will work with is ext
 
 The game is already set up for you so you need only to [build and run](defold://build) the game to try it. (You can also select <kbd>Project ▸ Build</kbd> in the menu to build and run)
 
-![](.doc/run_game.jpg)
+![](.images/run_game.jpg)
 
 Try steering the space ship with the arrow keys and pick up stars for points.
 
@@ -18,11 +18,11 @@ First, let’s adjust the speed of the space ship:
 
 1. Open the file [spaceship.script](defold://open?resource=/spaceship/spaceship.script) with the menu item <kbd>File ▸ Open Asset...</kbd>
 
-   ![](.doc/open_asset.jpg)
+   ![](.images/open_asset.jpg)
 
 2. Type the word "space" to searching among all the available assets and select the file "spaceship.script". Click the button <kbd>Open</kbd> to open the file in the Lua code editor.
 
-   ![](.doc/code_editor.jpg)
+   ![](.images/code_editor.jpg)
 
 3. At the top of the file, change the line:
 
@@ -64,19 +64,19 @@ Try to collect some stars and notice how the score has dramatically increased.
 
 ## Adding bonus stars
 
-![](.doc/bonus_star.jpg)
+![](.images/bonus_star.jpg)
 
 The game would perhaps be a bit more interesting if bonus stars would appear now and then. In order to make that happen, you need to create a new *game object file*, which will work as a blueprint for the new type of star.
 
 1. Add a new game object file. Right-click the "stars" folder in the *Assets* view and select <kbd>New... ▸ Game Object</kbd>. Name the new file "bonus_star". (The editor will automaticaly append a file type suffix so the full name will be "bonus_star.go".)
 
-   ![](.doc/new_game_object.jpg)
+   ![](.images/new_game_object.jpg)
 
 2. The editor automatically opens the new file so you can edit it.
 
 3. Add a *Sprite* component to the game object. Right-click the root of the *Outline* view and select <kbd>Add Component ▸ Sprite</kbd>. This allows you to attach graphics to the bonus star.
 
-   ![](.doc/add_component.png)
+   ![](.images/add_component.png)
 
 In the Outline view, you will see a new item called "sprite". When it is clicked, its properties are displayed in the *Properties* view below. The sprite currently has no graphics attached so you need to do that:
 
@@ -84,7 +84,7 @@ In the Outline view, you will see a new item called "sprite". When it is clicked
 
 2. Set *Default Animation* to "bonus_star". "bonus_star" is an animation defined in the atlas.
 
-   ![](.doc/sprite_properties.jpg)
+   ![](.images/sprite_properties.jpg)
 
 3. A green star should now appear in the editor. Hit the <kbd>F</kbd> key or select <kbd>View ▸ Frame Selection</kbd> if the view of the star is not very good.
 
@@ -98,7 +98,7 @@ In the Outline view, you will see a new item called "sprite". When it is clicked
 
 8. Select the *Scale Tool* in the toolbar and use the scale handle to resize the sphere in the scene view until it reasonably covers the star. You can also edit the *Diameter* property directly in the *Properties* view.
 
-   ![](.doc/sphere_size.jpg)
+   ![](.images/sphere_size.jpg)
 
 9. Right click the root "Game Object" item in the *Outline* view again and select <kbd>Add Component File</kbd>, then select the script file "bonus_star.script". This script moves the bonus stars and make sure the player gets the right amount of points for catching them.
 
@@ -116,7 +116,7 @@ Factory Components are responsible for making sure game objects of various kind 
 
 4. Set its *Prototype* property to "bonus_star.go" with the browse-button (<kbd>...</kbd>)
 
-   ![](.doc/factory.jpg)
+   ![](.images/factory.jpg)
 
 ## Modify the factory script
 
@@ -142,10 +142,16 @@ The last step is to make sure the factory game object starts creating the bonus 
 
    The new bonus stars will start to appear!
 
-![](.doc/run_final.jpg)
+![](.images/run_final.jpg)
 
 *You Win!*
 
 Now go ahead and create more games in Defold!
+
+Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
+
+If you run into trouble, help is available in [our forum](https://forum.defold.com).
+
+Happy Defolding!
 
 ----
