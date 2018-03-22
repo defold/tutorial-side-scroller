@@ -14,7 +14,7 @@ The game is currently not much fun, but you can easily improve it with some simp
 
 First, let’s adjust the speed of the space ship:
 
-1. Open the file [spaceship.script](defold://open?resource=/spaceship/spaceship.script) with the menu item <kbd>File ▸ Open Asset...</kbd>
+1. Open the file ["spaceship.script"](defold://open?path=/spaceship/spaceship.script) with the menu item <kbd>File ▸ Open Asset...</kbd>
 
    ![](doc/open_asset.jpg)
 
