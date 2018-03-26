@@ -26,7 +26,7 @@ First, let’s adjust the speed of the space ship:
 1. Open the file ["spaceship.script"](defold://open?path=/spaceship/spaceship.script) with the menu item <kbd>File ▸ Open Asset...</kbd>
 
    <figure>
-      <img src="doc/open_asset.png" style="width:50%">
+      <img src="doc/open_asset.png" width="50%" style="width:50%">
    </figure>
 
 2. Type the word "space" to searching among all the available assets and select the file "spaceship.script". Click the button <kbd>Open</kbd> to open the file in the Lua code editor.
