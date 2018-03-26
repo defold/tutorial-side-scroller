@@ -1,4 +1,4 @@
-local max_speed = 600
+local max_speed = 60
 local min_y = 60
 local max_y = 600
 

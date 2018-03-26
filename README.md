@@ -1,3 +1,10 @@
+<style>
+figure {
+   width: intrinsic;
+   margin: 0;
+}
+</style>
+
 # Side scroller tutorial
 
 Welcome to the side scroller Defold tutorial where you will get a first taste of what making games in Defold is about. You will learn how to tweak a game to make it more fun and add then a new type of pickup. The tutorial should only take about 10 minutes.
@@ -18,7 +25,9 @@ First, let’s adjust the speed of the space ship:
 
 1. Open the file ["spaceship.script"](defold://open?path=/spaceship/spaceship.script) with the menu item <kbd>File ▸ Open Asset...</kbd>
 
-   ![](doc/open_asset.jpg)
+   <figure>
+      <img src="doc/open_asset.png" style="width:50%">
+   </figure>
 
 2. Type the word "space" to searching among all the available assets and select the file "spaceship.script". Click the button <kbd>Open</kbd> to open the file in the Lua code editor.
 
