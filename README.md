@@ -6,7 +6,7 @@ The game you will work with is extremely simple. The player controls a space shi
 
 The game is already set up for you so you need only to [build and run](defold://build) the game to try it. (You can also select <kbd>Project ▸ Build</kbd> in the menu to build and run)
 
-![](doc/run_game.jpg)
+<img src="doc/run_game.jpg" width="800">
 
 Try steering the space ship with the arrow keys and pick up stars for points.
 
@@ -20,9 +20,9 @@ First, let’s adjust the speed of the space ship:
 
    <img src="doc/open_asset.png" srcset="doc/open_asset@2x.png 2x">
 
-2. Type the word "space" to searching among all the available assets and select the file "spaceship.script". Click the button <kbd>Open</kbd> to open the file in the Lua code editor.
+2. Type the word "space" to searching among all the available assets and select the file ["spaceship.script"](defold://open?path=/spaceship/spaceship.script). Click the button <kbd>Open</kbd> to open the file in the Lua code editor.
 
-   ![](doc/code_editor.jpg)
+   <img src="doc/code_editor.png" srcset="doc/code_editor@2x.png 2x">
 
 3. At the top of the file, change the line:
 
@@ -64,13 +64,11 @@ Try to collect some stars and notice how the score has dramatically increased.
 
 ## Adding bonus stars
 
-![](doc/bonus_star.jpg)
-
-The game would perhaps be a bit more interesting if bonus stars would appear now and then. In order to make that happen, you need to create a new *game object file*, which will work as a blueprint for the new type of star.
+The game would be more interesting if bonus stars would appear now and then. In order to make that happen, you need to create a new *game object file*, which will work as a blueprint for the new type of star.
 
 1. Add a new game object file. Right-click the "stars" folder in the *Assets* view and select <kbd>New... ▸ Game Object</kbd>. Name the new file "bonus_star". (The editor will automaticaly append a file type suffix so the full name will be "bonus_star.go".)
 
-   ![](doc/new_game_object.jpg)
+   <img src="doc/new_game_object.png" srcset="doc/new_game_object@2x.png 2x">
 
 2. The editor automatically opens the new file so you can edit it.
 
