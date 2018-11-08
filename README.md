@@ -40,7 +40,7 @@ First, let’s adjust the speed of the space ship:
 
 4. Reload the script file into the running game with <kbd>File ▸ Hot Reload</kbd>.
 
-Try moving the space ship with the arrow-keys on your keyboard. Notice how the it moves faster now.
+Try moving the space ship with the arrow-keys on your keyboard. Notice how it moves faster now.
 
 Currently, the player only gets 1 point for each star collected. More score is more fun so let’s fix that.
 
@@ -136,7 +136,7 @@ The last step is to make sure the factory game object starts creating the bonus 
 
    This causes the bonus stars to appear roughly 20% of the time.
 
-3. Restart the game by closing the window (or press <kbd>Escape</kbd>) to exit, then select <kbd>Project ▸ Build</kbd> from the editor menu.
+3. Restart the game by closing the window (or press <kbd>Escape</kbd> – assuming you have enabled the "Escape Quits Game" option in <kbd>File ▸ Preferences</kbd>), then select <kbd>Project ▸ Build</kbd> from the editor menu.
 
    The new bonus stars will start to appear!
 
