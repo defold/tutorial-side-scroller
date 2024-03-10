@@ -54,12 +54,14 @@ embedded_components {
   "    }\n"
   "    index: 0\n"
   "    count: 1\n"
+  "    id: \"\"\n"
   "  }\n"
   "  data: 20.742905\n"
   "}\n"
   "linear_damping: 0.0\n"
   "angular_damping: 0.0\n"
   "locked_rotation: false\n"
+  "bullet: false\n"
   ""
   position {
     x: 0.0
@@ -76,10 +78,13 @@ embedded_components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/stars/stars.atlas\"\n"
-  "default_animation: \"star\"\n"
+  data: "default_animation: \"star\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
+  "textures {\n"
+  "  sampler: \"texture_sampler\"\n"
+  "  texture: \"/stars/stars.atlas\"\n"
+  "}\n"
   ""
   position {
     x: 0.0

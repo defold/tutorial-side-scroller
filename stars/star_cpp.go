@@ -1,6 +1,6 @@
 components {
-  id: "script"
-  component: "/spaceship/spaceship.script"
+  id: "pickup"
+  component: "/stars/pickup.particlefx"
   position {
     x: 0.0
     y: 0.0
@@ -28,7 +28,7 @@ embedded_components {
   "    shape_type: TYPE_SPHERE\n"
   "    position {\n"
   "      x: 0.0\n"
-  "      y: -6.287068\n"
+  "      y: -3.5058432\n"
   "      z: 0.0\n"
   "    }\n"
   "    rotation {\n"
@@ -41,7 +41,7 @@ embedded_components {
   "    count: 1\n"
   "    id: \"\"\n"
   "  }\n"
-  "  data: 28.0\n"
+  "  data: 20.742905\n"
   "}\n"
   "linear_damping: 0.0\n"
   "angular_damping: 0.0\n"
@@ -63,18 +63,18 @@ embedded_components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "default_animation: \"spin\"\n"
+  data: "default_animation: \"star\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   "textures {\n"
   "  sampler: \"texture_sampler\"\n"
-  "  texture: \"/spaceship/spaceship.atlas\"\n"
+  "  texture: \"/stars/stars.atlas\"\n"
   "}\n"
   ""
   position {
     x: 0.0
     y: 0.0
-    z: 0.0
+    z: 0.5
   }
   rotation {
     x: 0.0

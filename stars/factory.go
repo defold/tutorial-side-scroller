@@ -18,6 +18,7 @@ embedded_components {
   type: "factory"
   data: "prototype: \"/stars/star.go\"\n"
   "load_dynamically: false\n"
+  "dynamic_prototype: false\n"
   ""
   position {
     x: 0.0
